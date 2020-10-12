@@ -1,4 +1,5 @@
 <?php
+//Test
 $var1 = readline("Geben sie eine Zahl ein, die zwischen 4 und 10 liegt:");
 $var2 = readline("Geben sie eine Zahl eindie Zwischen 12 und 24 liegt:");
 $var3 = readline("Geben sie eine Zahl eindie zwischen 0 und 8 liegt:");
