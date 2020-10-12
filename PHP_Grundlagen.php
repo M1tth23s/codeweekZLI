@@ -2,7 +2,7 @@
 $var1 = readline("Geben sie eine Zahl ein, die zwischen 4 und 10 liegt:");
 $var2 = readline("Geben sie eine Zahl eindie Zwischen 12 und 24 liegt:");
 $var3 = readline("Geben sie eine Zahl eindie zwischen 0 und 8 liegt:");
-$var4 = readline("Geben sie eine Zahl ein, die zwischen 6 und 20 liegt:");
+$var4 = readline("Geben sie eine Zahl ein, die zwischen 6 und 20 liegt:"); //hello
 $var5 = readline("Geben sie eine Zahl ein, die zwischen 2 und 10 liegt:");
 $var6 = readline("Geben sie eine Zahl ein, die zwischen 4 und 16 liegt:");
 
