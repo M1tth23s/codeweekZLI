@@ -20,5 +20,7 @@
 
 <p>APIs:<br>
     </p>
+    
+<p>Logo:<br>
 
 <img src="https://raw.githubusercontent.com/M1tth23s/codeweekZLI/main/Laender_Lexikon.jpg">
