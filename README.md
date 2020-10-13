@@ -1,6 +1,6 @@
 # codeweekZLI
 ____________________________________________________
-Wofür ist das Projekt vorgesehen: 
+<p>Wofür ist das Projekt vorgesehen:</p> 
 Dieses Projekt soll Menschen helfen, neue Länder kennenzulernen. Pro Kontinent sind 2 Länder verfügbar. Wenn man auf einen Kontinent klickt, sollen diese Länder angezeigt werden und man kann dann ein paar Infos herauslesen wie zum Beispiel die Hauptstadt oder die Landessprache.
 ____________________________________________________
 Wie wird es konfiguriert und installiert:
