@@ -1,4 +1,3 @@
-<body>
     <h1> CodeweekZLI </h1>
 
     <p> Wofür ist das Projekt vorgesehen:<br>
