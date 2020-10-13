@@ -17,3 +17,6 @@
 
 <p>Team:<br>
    Dario Bonetti, Matthias Bürgin, Martin Oberholzer, Valerio Visini, Lyn Schär </p>
+
+<p>API:<br>
+    </p>
