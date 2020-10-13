@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -16,7 +16,7 @@
 			position: fixed;
 			top: 0;
 			bottom: 0;
-			width: 100%;
+			width: 80%;
 		}
 		.Logo {
 			width: 400px;
@@ -33,6 +33,12 @@
 </head>
 
 <body>
+	<script
+		src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.js"></script>
+	<link rel="stylesheet"
+		href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.0/mapbox-gl-directions.css"
+		type="text/css" />
+
 	<body>
 		<div id="map"></div>
 		<!--<img class="Logo"src="Länderlexikon.jpg" alt="Logo">-->
