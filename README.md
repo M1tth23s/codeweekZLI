@@ -20,4 +20,4 @@
 
 <p>APIs:<br>
     </p>
-<img src="Leander_Lexikon.jpg">
+<src="Leander_Lexikon.jpg" alt="Logo">
