@@ -18,6 +18,6 @@
 <p>Team:<br>
    Dario Bonetti, Matthias Bürgin, Martin Oberholzer, Valerio Visini, Lyn Schär </p>
 
-<p>API:<br>
+<p>APIs:<br>
     </p>
-<img src="C:\Benutzer\matth\OneDrive\Bilder/Leaner_Lexikon.jpg"/>
+<img src="Leander_Lexikon.jpg">
