@@ -10,7 +10,7 @@
     Man kann die HTML-Datei in einem Browser öffnen. Anschliessend kann man auf einen Kontinent klicken und es werden 2 Länder angezeigt.</p>
 
 <p> Die Lizenz, unter der das Projekt zur Verfügung steht:<br>
-    Dieses Projekt ist provat, dass heisst sie müssen eingeladen sein.</p>
+    Dieses Projekt ist privat, das heisst sie müssen eingeladen sein.</p>
 
 <p> Wie man dazu beitragen kann:<br>
-    Sie müssen eingeladen worden sein und könnnen dann den Code bearbeiten. sie können zum Beispiel mehr Infos hinzufügen oder aber die Website lesefreundlicher machen.</p>
+    Sie müssen eingeladen worden sein und können dann den Code bearbeiten. sie können zum Beispiel mehr Infos hinzufügen oder aber die Website lesefreundlicher machen.</p>
