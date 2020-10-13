@@ -14,3 +14,6 @@
 
 <p> Wie man dazu beitragen kann:<br>
     Sie müssen eingeladen worden sein und können dann den Code bearbeiten. sie können zum Beispiel mehr Infos hinzufügen oder aber die Website lesefreundlicher machen.</p>
+
+<p>Team:<br>
+   Dario Bonetti, Matthias Bürgin, Martin Oberholzer, Valerio Visini, Lyn Schär </p>
