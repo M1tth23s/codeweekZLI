@@ -20,3 +20,4 @@
 
 <p>API:<br>
     </p>
+<p> <img src="Laender_Lexikon.jpg" alt="Logo" width="500" height="200">
