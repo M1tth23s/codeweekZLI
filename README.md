@@ -20,4 +20,4 @@
 
 <p>API:<br>
     </p>
-<p> <img src="Laender_Lexikon.jpg" alt="Logo" width="500" height="200">
+<img src="C:\Benutzer\matth\OneDrive\Bilder/Leaner_Lexikon.jpg"/>
