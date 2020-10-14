@@ -106,44 +106,35 @@
 <body>
 <div>
         <h1>Kontinente</h1>
+        <table>
+        <tr>
+            <th><h3>Europa</h3></th>
+            <th><h3>Asien</h3></th>
+            <th><h3>Afrika</h3></th>
+            <th><h3>Australien</h3></th>
+            <th><h3>Südamerika</h3></th>
+            <th><h3>Nordamerika</h3></th>
 
-        <details>
-            <summary>Europa</summary>
-            <p><a id=Spanien href=Länder.html target="_blank">Spanien</a></p>
-            <p><a id=Norwegen href=Länder.html target="_blank">Norwegen</a></p>
-        </details>
+        </tr>
+        <tr>
+            <td><a id=Spanien href=Länder.html>Spanien</a></td>
+            <td><a id=China href=Länder.html>China</a></td>
+            <td>Nigeria</td>
+            <td>Neuseeland</td>
+            <td>Chile</td>
+            <td>USA</td>
 
-        <details>
-            <summary>Asien</summary>
-            <p><a id=China href=Länder.html target="_blank">China</a></p>
-            <p><a id=China href=Länder.html target="_blank">Japan</a></p>
-        </details>
+        </tr>
+        <tr>
+            <td><a id=Norwegen href=Länder.html>Norwegen</a></td>
+            <td><a id=Japan href=Länder.html>Japan</a></td>
+            <td>Ghana</td>
+            <td>Papua-Neuguinea</td>
+            <td>Brasilien</td>
+            <td>Kanada</td>
 
-        <details>
-            <summary>Afrika</summary>
-            <p>Nigeria</p>
-            <p>Ghana</p>
-        </details>
-
-        <details>
-            <summary>Australien</summary>
-            <p>Neuseeland</p>
-            <p>Papua-Neuguinea</p>
-        </details>
-
-        <details>
-            <summary>Südamerika</summary>
-            <p>Chile</p>
-            <p>Brasilien</p>
-        </details>
-
-        <details>
-            <summary>Nordamerika</summary>
-            <p>USA</p>
-            <p>Kanada</p>
-        </details>
-
-    </details>
+        </tr>
+    </table>
 </div>
 </body>
 
@@ -156,9 +147,4 @@
         background-color: rgb(228, 218, 218);
         margin-left: 1em;
     }
-
-    summary:hover {
-        text-decoration: underline;
-    }
 </style>
-
