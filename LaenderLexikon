@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<!-- Flatdoc theme -->
 	<link href='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'>
 	<script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
+	<meta charset="UTF-8">
+
+
+
 </head>
 <!---header-->
 <div class='header'>
@@ -11,13 +16,12 @@
 	<!--Titel-->
 	<h1>Länder Lexikon</h1>
 	<ul>
-		<li><a href='https://github.com/M1tth23s/codeweekZLI/blob/main/README.md'>View on GitHub</a></li>
-		<li><a href='https://github.com/M1tth23s/codeweekZLI/issues'>Issues</a></li>
+		<li><a href=Kontinente.html>Kontinente</a></li>
 		<li><a href=Map.html>Karte</a></li>
+
 	</ul>
 </div>
 
-</div>
 <!--field-->
 
 <div class='content-root'>
@@ -35,71 +39,16 @@
 		</style>
 		<img class="Logo" src="Laenderlexikon.jpg" alt="Logo">
 		<div class="Logo"></div>
-		<h1>
-			</head>
-
-			<body>
-
-				<details>
-					<summary>Kontinente</summary>
-
-					<details>
-						<summary>Europa</summary>
-						<p><a id=Spanien href=Länder.html>Spanien</a></p>
-						<p><a id=Norwegen href=Länder.html>Norwegen</a></p>
-					</details>
-
-					<details>
-						<summary>Asien</summary>
-						<p>China</p>
-						<p>Japan</p>
-					</details>
-
-					<details>
-						<summary>Afrika</summary>
-						<p>Nigeria</p>
-						<p>Ghana</p>
-					</details>
-
-					<details>
-						<summary>Australien</summary>
-						<p>Neuseeland</p>
-						<p>Papua-Neuguinea</p>
-					</details>
-
-					<details>
-						<summary>Südamerika</summary>
-						<p>Chile</p>
-						<p>Brasilien</p>
-					</details>
-
-					<details>
-						<summary>Nordamerika</summary>
-						<p>USA</p>
-						<p>Kanada</p>
-					</details>
-
-				</details>
-			</body>
-
-			<style>
-				details {
-					background-color: rgb(104, 114, 112);
-				}
-
-				details details {
-					background-color: rgb(228, 218, 218);
-					margin-left: 1em;
-				}
-
-				summary:hover {
-					text-decoration: underline;
-				}
-			</style>
+	</body>
 
 </html>
-</h1>
-</body>
+
+
+
+
+
+
+
 
 
 <html>
@@ -138,3 +87,78 @@
 </html>
 <!doctype html>
 <html>
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+        <h1>Kontinente</h1>
+
+        <details>
+            <summary>Europa</summary>
+            <p><a id=Spanien href=Länder.html target="_blank">Spanien</a></p>
+            <p><a id=Norwegen href=Länder.html target="_blank">Norwegen</a></p>
+        </details>
+
+        <details>
+            <summary>Asien</summary>
+            <p><a id=China href=Länder.html target="_blank">China</a></p>
+            <p><a id=China href=Länder.html target="_blank">Japan</a></p>
+        </details>
+
+        <details>
+            <summary>Afrika</summary>
+            <p>Nigeria</p>
+            <p>Ghana</p>
+        </details>
+
+        <details>
+            <summary>Australien</summary>
+            <p>Neuseeland</p>
+            <p>Papua-Neuguinea</p>
+        </details>
+
+        <details>
+            <summary>Südamerika</summary>
+            <p>Chile</p>
+            <p>Brasilien</p>
+        </details>
+
+        <details>
+            <summary>Nordamerika</summary>
+            <p>USA</p>
+            <p>Kanada</p>
+        </details>
+
+    </details>
+</div>
+</body>
+
+<style>
+    details {
+        background-color: rgb(255, 255, 255);
+    }
+
+    details details {
+        background-color: rgb(228, 218, 218);
+        margin-left: 1em;
+    }
+
+    summary:hover {
+        text-decoration: underline;
+    }
+</style>
+
