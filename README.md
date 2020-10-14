@@ -19,7 +19,8 @@
    Dario Bonetti, Matthias Bürgin, Martin Oberholzer, Valerio Visini, Lyn Schär </p>
 
 <p>APIs:<br>
-    https://restcountries.eu/rest/v2/all</p>
+    https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js<br>
+    https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css</p>
     
 <p>Logo:<br>
 
