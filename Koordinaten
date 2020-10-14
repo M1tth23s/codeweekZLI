@@ -1,43 +1,20 @@
-//USA
-
-<html>
-<!--Karte-->
-
-<head>
-	<meta charset="utf-8" />
-	<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
-	<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
-	<style>
-		#map {
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			width: 100%;
-		}
-	</style>
-</head>
-
 <body>
-
-	<body>
-		<div id="map"></div>
+		<a href="#Verändern"></a>
 		<script>
 			mapboxgl.accessToken = 'pk.eyJ1IjoiZ29kbHltaWxrIiwiYSI6ImNrZzdsMTl3cTA4ZDkyeW52MGJoM3lpd3gifQ.XKPHid2NlcXSKZOSQVcIOg';
 			var map = new mapboxgl.Map({
 				container: 'map',
 				style: 'mapbox://styles/mapbox/streets-v11',
-				center: [-95., 40],
-				zoom: 4.3
+				center: Verändern,
+               			zoom: Verändern
 			});
 		</script>
-
-	</body>
-
-</html>
-<!doctype html>
-<html>
-
-
+          
+				
+//USA
+center: [-95., 40],
+				zoom: 4.3
+		
 //Kanada
 
   center: [-95, 60]
