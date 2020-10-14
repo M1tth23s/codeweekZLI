@@ -1,131 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <!--Karte-->
 <head>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
-	<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
-	<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
-	<style>
-		
-
-		#map {
-			position: fixed;
-			top: 0;
-			bottom: 0;
-			width: 100%;
-		}
-		.Logo {
-			width: 400px;
-			height: 300px;
-			background-image: src="Laender_Lexikon.jpg";
-			background-size: 100%;
-			background-repeat: no-repeat;
-			background-position: top right;
-			}
-		.Logo:hover{
-			background-size: 100%;
-		}
-	</style>
+	<!-- Flatdoc theme -->
+	<link href='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'>
+	<script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
 </head>
+<!---header-->
+<div class='header'>
 
-<body>
+	<!--Titel-->
+	<h1>Länder Lexikon</h1>
+	<ul>
+		<li><a href='https://github.com/M1tth23s/codeweekZLI/blob/main/README.md'>View on GitHub</a></li>
+		<li><a href='https://github.com/M1tth23s/codeweekZLI/issues'>Issues</a></li>
+		<li><a href=Map.html>Karte</a></li>
+	</ul>
+</div>
+
+</div>
+<!--field-->
+
+<div class='content-root'>
+
 	<body>
-		<div id="map"></div>
-		<!--<img class="Logo"src="Länderlexikon.jpg" alt="Logo">-->
+		<style>
+			.Logo {
+				width: auto;
+				height: auto;
+				background-image: src="Laender_Lexikon.jpg";
+				background-size: 100%;
+				background-repeat: no-repeat;
+				background-position: top right;
+			}
+		</style>
+		<img class="Logo" src="Laenderlexikon.jpg" alt="Logo">
 		<div class="Logo"></div>
-		<script>
-			mapboxgl.accessToken = 'pk.eyJ1IjoiZ29kbHltaWxrIiwiYSI6ImNrZzdsMTl3cTA4ZDkyeW52MGJoM3lpd3gifQ.XKPHid2NlcXSKZOSQVcIOg';
-			var map = new mapboxgl.Map({
-				container: 'map',
-				style: 'mapbox://styles/mapbox/streets-v11',
-				center: [40.866667, 34.566667],
-				zoom: 0
-			});
-		</script>
+		<h1>
+			</head>
 
-	</body>
+			<body>
+
+				<details>
+					<summary>Kontinente</summary>
+
+					<details>
+						<summary>Europa</summary>
+						<p>Spanien</p>
+						<p>Norwegen</p>
+					</details>
+
+					<details>
+						<summary>Asien</summary>
+						<p>China</p>
+						<p>Japan</p>
+					</details>
+
+					<details>
+						<summary>Afrika</summary>
+						<p>Nigeria</p>
+						<p>Ghana</p>
+					</details>
+
+					<details>
+						<summary>Australien</summary>
+						<p>Neuseeland</p>
+						<p>Papua-Neuguinea</p>
+					</details>
+
+					<details>
+						<summary>Südamerika</summary>
+						<p>Chile</p>
+						<p>Brasilien</p>
+					</details>
+
+					<details>
+						<summary>Nordamerika</summary>
+						<p>USA</p>
+						<p>Kanada</p>
+					</details>
+
+				</details>
+			</body>
+
+			<style>
+				details {
+					background-color: rgb(104, 114, 112);
+				}
+
+				details details {
+					background-color: rgb(228, 218, 218);
+					margin-left: 1em;
+				}
+
+				summary:hover {
+					text-decoration: underline;
+				}
+			</style>
 
 </html>
-<!doctype html>
-<html>
-<head>
-    <!-- Flatdoc theme -->
-    <link  href='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/style.css' rel='stylesheet'>
-    <script src='https://cdn.rawgit.com/rstacruz/flatdoc/v0.9.0/theme-white/script.js'></script>
-</head>
-    <!---header-->
-    <div class='header'>
-        
-            <!--Titel-->
-            <h1>Länder Lexikon</h1>
-            <ul>
-                <li><a href='https://github.com/M1tth23s/codeweekZLI/blob/main/README.md'>View on GitHub</a></li>
-                <li><a href='https://github.com/M1tth23s/codeweekZLI/issues'>Issues</a></li>
-            </ul>
-        </div>
-        
-    </div>
-<!--field-->
-    <div class='content-root'> 
-        <body>
-            <h1></head>
-                <body>
-                
-                <details>
-                    <summary>Kontinente</summary>
-                
-                    <details>
-                        <summary>Europa</summary>
-                        <p>Spanien</p>
-                        <p>Norwegen</p>
-                    </details>
-                
-                    <details>
-                    <summary>Asien</summary>
-                        <p>China</p>
-                        <p>Japan</p>
-                    </details>
-                
-                    <details>
-                    <summary>Afrika</summary>
-                        <p>Nigeria</p>
-                        <p>Ghana</p>
-                    </details>
-                
-                    <details>
-                    <summary>Australien</summary>
-                        <p>Neuseeland</p>
-                        <p>Papua-Neuguinea</p>
-                    </details>
-                
-                    <details>
-                    <summary>Südamerika</summary>
-                        <p>Chile</p>
-                        <p>Brasilien</p>
-                    </details>
-                
-                    <details>
-                    <summary>Nordamerika</summary>
-                        <p>USA</p>
-                        <p>Kanada</p>
-                    </details>
-                
-                </details>
-                </body>
-                
-                <style>
-                    details {
-                        background-color: rgb(104, 114, 112);
-                    }
-                    details details {
-                    background-color: rgb(228, 218, 218);
-                    margin-left: 1em;
-                }
-                summary:hover {
-                    text-decoration: underline;
-                }
-                </style>
-                
-                </html></h1>
-        </body>
+</h1>
+</body>
