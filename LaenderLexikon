@@ -16,15 +16,14 @@
 	<!--Titel-->
 	<h1>Länder Lexikon</h1>
 	<ul>
-		<li><a href=Kontinente.html>Kontinente</a></li>
-		<li><a href=Map.html>Karte</a></li>
+		<li><a href=Conti1.html>KConti1.htmlontinente</a></li>
+		<li><a href=Card1.html>Karte</a></li>
 
 	</ul>
 </div>
 
 <!--field-->
 
-<div class='content-root'>
 
 	<body>
 		<style>
@@ -37,15 +36,16 @@
 				background-position: top right;
 			}
 		</style>
-		<img class="Logo" src="Laenderlexikon.jpg" alt="Logo">
+		<img class="Logo" src="Laender_lexikon.jpg" alt="Logo">
 		<div class="Logo"></div>
-	</body>
+    </body>
+    <style>
+        body {
+            background-image: url("welt2.jpg");
+            }
+    </style>
 
 </html>
-
-
-
-
 
 
 
