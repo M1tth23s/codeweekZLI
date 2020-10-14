@@ -50,10 +50,80 @@
 
 
 
-
 <html>
 <!--Karte-->
-
+<head>
+    <style>
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a, .dropbtn {
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover, .dropdown:hover .dropbtn {
+      background-color: red;
+    }
+    
+    li.dropdown {
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 3;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .dropdown-content a:hover {background-color: #f1f1f1;}
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    </style>
+    </head>
+    <body>
+    
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="Card1.html">Karte</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Kontinente</a>
+        <div class="dropdown-content">
+          <a href="#">Asien</a>
+          <a href="#">Australien</a>
+          <a href="#">Afrika</a>
+          <a href="#">Europa</a>
+          <a href="#">Nordamerika</a>
+          <a href="#">Südamerika</a>
+        </div>
+      </li>
+    </ul>
+    </body>
 <head>
 	<meta charset="utf-8" />
 	<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
@@ -84,21 +154,19 @@
 
 	</body>
 
+
+    
 </html>
+
+
+
+
+
+
+
+
 <!doctype html>
 <html>
-
-
-
-
-
-
-
-
-
-
-
-
 <head>
 
     <link rel="stylesheet" href="style.css">
@@ -106,35 +174,44 @@
 <body>
 <div>
         <h1>Kontinente</h1>
-        <table>
-        <tr>
-            <th><h3>Europa</h3></th>
-            <th><h3>Asien</h3></th>
-            <th><h3>Afrika</h3></th>
-            <th><h3>Australien</h3></th>
-            <th><h3>Südamerika</h3></th>
-            <th><h3>Nordamerika</h3></th>
 
-        </tr>
-        <tr>
-            <td><a id=Spanien href=Länder.html>Spanien</a></td>
-            <td><a id=China href=Länder.html>China</a></td>
-            <td>Nigeria</td>
-            <td>Neuseeland</td>
-            <td>Chile</td>
-            <td>USA</td>
+        <details>
+            <summary>Europa</summary>
+            <p><a id=Spanien href=Länder.html target="_blank">Spanien</a></p>
+            <p><a id=Norwegen href=Länder.html target="_blank">Norwegen</a></p>
+        </details>
 
-        </tr>
-        <tr>
-            <td><a id=Norwegen href=Länder.html>Norwegen</a></td>
-            <td><a id=Japan href=Länder.html>Japan</a></td>
-            <td>Ghana</td>
-            <td>Papua-Neuguinea</td>
-            <td>Brasilien</td>
-            <td>Kanada</td>
+        <details>
+            <summary>Asien</summary>
+            <p><a id=China href=Länder.html target="_blank">China</a></p>
+            <p><a id=China href=Länder.html target="_blank">Japan</a></p>
+        </details>
 
-        </tr>
-    </table>
+        <details>
+            <summary>Afrika</summary>
+            <p>Nigeria</p>
+            <p>Ghana</p>
+        </details>
+
+        <details>
+            <summary>Australien</summary>
+            <p>Neuseeland</p>
+            <p>Papua-Neuguinea</p>
+        </details>
+
+        <details>
+            <summary>Südamerika</summary>
+            <p>Chile</p>
+            <p>Brasilien</p>
+        </details>
+
+        <details>
+            <summary>Nordamerika</summary>
+            <p>USA</p>
+            <p>Kanada</p>
+        </details>
+
+    </details>
 </div>
 </body>
 
@@ -146,5 +223,9 @@
     details details {
         background-color: rgb(228, 218, 218);
         margin-left: 1em;
+    }
+
+    summary:hover {
+        text-decoration: underline;
     }
 </style>
