@@ -19,6 +19,7 @@
    Dario Bonetti, Matthias Bürgin, Martin Oberholzer, Valerio Visini, Lyn Schär </p>
 
 <p>APIs:<br>
+    https://kit.fontawesome.com/a076d05399.js<br>
     https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js<br>
     https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css</p>
     
