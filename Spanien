@@ -105,7 +105,10 @@
     <p>Hauptstadt : Madrid</p>
     <p>Bevölkerungsdichte : 92 Einwohner pro Quadratkilometer</p>
     <div id="map" onclick="closeMap()"></div>
-    <button class="button button1" onclick="showMap()">Spanien auf der Karte</button>
+	<img src="Spanien-Flagge.png">
+	<br>
+	<button class="button button1" onclick="showMap()">Spanien auf der Karte</button>
+
     <script>
 
         function showMap() {
