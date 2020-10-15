@@ -1,4 +1,10 @@
 <body>
+    <a id=Nigeria href=Map.html><button class="button button1">Hier gehts zur karte</button></a>
+</body>
+
+
+
+<body>
 		<a href="#Verändern"></a>
 		<script>
 			mapboxgl.accessToken = 'pk.eyJ1IjoiZ29kbHltaWxrIiwiYSI6ImNrZzdsMTl3cTA4ZDkyeW52MGJoM3lpd3gifQ.XKPHid2NlcXSKZOSQVcIOg';
@@ -9,64 +15,65 @@
                			zoom: Verändern
 			});
 		</script>
+		</body>
           
 				
 //USA
 center: [-95., 40],
-				zoom: 4.3
+zoom: 4.3
 		
 //Kanada
 
-  center: [-95, 60]
+  center: [-95, 60],
   zoom: 3.7
   
 //Spanien
   
-  center: [-5, 40]
+  center: [-5, 40],
   zoom: 6
   
 //Norwegen
 
-  center: [12, 63]
+  center: [12, 63],
   zoom: 4
   
 //China
 
-  center: [100, 37]
+  center: [100, 37],
   zoom: 4
   
 //Japan
 
-  center: [138, 38]
+  center: [138, 38],
   zoom: 5
   
 //Nigeria
 
-  center: [8, 9]
+  center: [8, 9],
   zoom: 6
   
 //Ghana
   
-  center: [0, 8.3]
+  center: [0, 8.3],
   zoom: 6.6
   
 //Neuseeland
   
-  center: [172, -41]
+  center: [172, -41],
   zoom: 5.2
   
 //Papua-Neuguinea
 
-  center: [150, -7]
+  center: [150, -7],
   zoom: 5.3
   
 //Chile
 
-  center: [-70, -36]
+  center: [-70, -36],
   zoom: 4
   
 //Brasilien
 
-  center: [-50, -17]
+  center: [-50, -17],
   zoom: 4
  
