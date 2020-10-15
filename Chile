@@ -107,7 +107,7 @@
     <div id="map" onclick="closeMap()"></div>
 	<img src="Chile-Flagge.png">
 	<br>
-	<button class="button button1" onclick="showMap()">Spanien auf der Karte</button>
+	<button class="button button1" onclick="showMap()">Chile auf der Karte</button>
 	
 	<script>
 
