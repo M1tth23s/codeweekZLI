@@ -2,12 +2,42 @@
 <html>
     
 <head>
-    <title>Länder-Lexikon/Afrika/Nigeria</title>
-    <link rel="icon" type="image/vnd.microsoft.icon" href="Tab-Logo.ico">
+    <title>Länder-Lexikon/Afrika/Ghana</title>
+    <link rel="icon" type="image/vnd.microsoft.svg" href="globe.svg">
 	<meta charset="utf-8" />
 	<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
 	<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
     <style>
+
+
+img{
+    height: 220px;
+    width: auto;
+}
+
+h1, h2, p {
+    text-indent: 20px;
+}
+
+button {
+  position: sticky;
+  height: 46px;
+  background-color: #1b1b1b;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #f9f9f9;
+  margin: 20px;
+}
+
+h1, h2, p {
+    font-family: sans-serif;
+}
+
+/* body */
+body {
+  margin: 0;
+}
+
         ul {
             list-style-type: none;
             margin: 0;
@@ -21,47 +51,21 @@
         }
 
         li a,
-        .dropbtn {
+        .bar {
             display: inline-block;
             color: white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+            font-family: sans-serif;
         }
 
         li a:hover,
-        .dropdown:hover .dropbtn {
-            background-color: limegreen;
+        .bar:hover .bar {
+            background-color: rgb(0, 124, 201);
         }
 
-        li.dropdown {
-            display: inline-block;
-        }
-
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            min-width: 160px;
-            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
-
-        .dropdown-content a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-
-        .dropdown-content a:hover {
-            background-color: #f1f1f1;
-        }
-
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+        
 
         #map {
 			position: fixed;
@@ -84,15 +88,6 @@
     <ul>
         <li><a href="Laender_Lexikon.html">Home</a></li>
         <li><a href="Map.html">Karte</a></li>
-        <li class="dropdown">
-            <a href="javascript:void(0)" class="dropbtn">Kontinente</a>
-            <div class="dropdown-content">
-                <a href="Asien.html">Asien</a>
-                <a href="Australien.html">Australien</a>
-                <a href="Afrika.html">Afrika</a>
-                <a href="Nordamerika.html">Nordamerika</a>
-                <a href="Südamerika.html">Südamerika</a>
-            </div>
         </li>
     </ul>
 
@@ -104,10 +99,15 @@
     <p>Sprache : Englisch, Hausa, Igbo, Yoruba</p>
     <p>Hauptstadt : Abuja</p>
     <p>Bevölkerungsdichte : 231 Einwohner pro Quadratkilometer</p>
+    <br>
+    <button class="button button1" onclick="showMap()", onclick="hidebutton">Nigeria auf der Karte</button>
+        <p>Um zurück von der Karte zu kommen drücken sie auf den Bildschirm</p>
     <div id="map" onclick="closeMap()"></div>
-	<img src="Nigeria-Flagge.png">
+    <div id="map" onclick="closeMap()"></div>
+    <div style="position:absolute;top:250px;right:20px;z-index:-2;">
+    <img src="Nigeria-Flagge.png">
 	<br>
-	<button class="button button1" onclick="showMap()">Nigeria auf der Karte</button>
+	
 	
 	<script>
 
@@ -127,5 +127,6 @@
         }
         
     </script>
+    
     </body>
 </html>
