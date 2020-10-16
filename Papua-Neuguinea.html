@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Länder-Lexikon/Asien/Japan</title>
+    <link rel="icon" type="image/vnd.microsoft.svg" href="globe.svg">
+	<meta charset="utf-8" />
+	<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+	<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+    <style>
+
+
+img{
+    height: 220px;
+    width: auto;
+}
+
+h1, h2, p {
+    text-indent: 20px;
+}
+
+button {
+  position: sticky;
+  height: 46px;
+  background-color: #1b1b1b;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #f9f9f9;
+  margin: 20px;
+}
+
+h1, h2, p {
+    font-family: sans-serif;
+}
+
+/* body */
+body {
+  margin: 0;
+}
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a,
+        .bar {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+        li a:hover,
+        .bar:hover .bar {
+            background-color: rgb(0, 124, 201);
+        }
+
+        
+
+        #map {
+			position: fixed;
+			top: 60;
+			bottom: 0;
+			width: 100%;
+            height: 100vh;
+            display: none;
+		}
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Australien</h1>
+        <p>Papua-Neuguinea</p>
+    </div>
+    
+    
+    <ul>
+        <li><a href="Layout.html">Home</a></li>
+        <li><a href="Card1.html">Karte</a></li>
+        </li>
+    </ul>
+
+
+    <h1>Kontinent Australien</h1>
+    <h2>Papua-Neuguinea</h2>
+    <p>Population : 8.606.000</p>
+    <p>Fläche : 462.840 Quadratkilometer</p>
+    <p>Sprache : Englisch</p>
+    <p>Hauptstadt : Port-Moresby</p>
+    <p>Bevölkerungsdichte : 19 Einwohner pro Quadratkilometer</p>
+    <br>
+    <button class="button button1" onclick="showMap()", onclick="hidebutton">Papua-Neuguinea auf der Karte</button>
+        <p>Um zurück von der Karte zu kommen drücken sie auf den Bildschirm</p>
+    <div id="map" onclick="closeMap()"></div>
+    <div id="map" onclick="closeMap()"></div>
+    <div style="position:absolute;top:250px;right:20px;z-index:-2;">
+    <img src="Papua-Neuguinea-Flagge.png">
+	<br>
+	
+	
+	<script>
+
+        function showMap() {
+            document.getElementById("map").style.display = "block";
+            mapboxgl.accessToken = 'pk.eyJ1IjoiZ29kbHltaWxrIiwiYSI6ImNrZzdsMTl3cTA4ZDkyeW52MGJoM3lpd3gifQ.XKPHid2NlcXSKZOSQVcIOg';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [138, 38],
+                zoom: 5
+            });
+        }
+
+        function closeMap() {
+            document.getElementById("map").style.display = "none";
+        }
+        
+    </script>
+    
+    </body>
+</html>
